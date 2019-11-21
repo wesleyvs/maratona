@@ -16,7 +16,7 @@
 - JRE 1.8.0
 - Play Framework 1.5.3
 
-##Importar projeto
+## Importar projeto
 Para a utilização da versão 1.5.3 do framework Play, necessita apenas realizar o [download do arquivo compactado](https://www.playframework.com/releases) e usar o Prompt de comando dentro da pasta do framework.
 
 ### Comandos para o Play framework
