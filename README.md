@@ -23,6 +23,6 @@ Para a utilização da versão 1.5.3 do framework Play, necessita apenas realiza
 No diretório do Play:
 - Comando play <nome do projeto>;
 - Comando play new <nome do projeto a ser criado>;
-- Comando play eclipsify <nome do projeto a ser configurado para utilização na IDE Eclipse>
- O comando "play eclipsify ..." pode ser alterado dependendo da IDE que o desenvolvedor deseja utilizar. Para mais informações consultar a [documentação](https://www.playframework.com/documentation/1.5.x/ide)
+- Comando play eclipsify <nome do projeto a ser configurado para utilização na IDE Eclipse>  
+ *obs: O comando "play eclipsify ..." pode ser alterado dependendo da IDE que o desenvolvedor deseja utilizar. Para mais informações consultar a [documentação](https://www.playframework.com/documentation/1.5.x/ide)*
  
