@@ -1,4 +1,4 @@
-# Validação de códigos .py de maratonas
+# Validação de códigos para maratonas
  O projeto web tem a função de validar códigos python (.py) através de comparação de arquivo de saida do algoritmo postado e o arquivo de saida esperado.  
  
 ## Endpoint /maratona: 
