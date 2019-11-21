@@ -18,15 +18,15 @@ public class Application extends Controller {
     
     public static List<Solution> solutions= new ArrayList<>();
     public static Integer aux=0;
-    public static String lista="";
+    public static String lista="------------------------------------\n";
     
     public static String concatenar(List<Solution> solutions) {
     	Date d = new Date();
 		lista += "Nome: "+ solutions.get(aux).getFilename() + "\n";
 		lista += "Problema: "+ solutions.get(aux).getProblem() + "\n";
 		lista += "Data: "+ d + "\n";
-		lista += "Status: SUCCESS";
-		lista += "\n\n";
+		lista += "Status: Success";
+		lista += "\n------------------------------------\n";
 		aux++;
     	return lista;
     }

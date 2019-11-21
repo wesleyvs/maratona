@@ -16,10 +16,6 @@
 	                    <pre>Problema:</pre>
 	                    <input id="nomeArquivo" type="text" name="solution.problem">
 	                </div>
-	                <div id="direita">
-	                    <pre>Resultado: </pre>
-	                    <pre><textarea id="Resultado" rows="7" cols="25" disabled="disabled" name="solution.status">...</textarea></pre>
-	                </div>
 	            </div>
 	            <div id="inferior">
 		            <br><br>
@@ -33,31 +29,13 @@
         </form>
 		<script>
 			var btn = document.getElementById("submit");
-			var resultado = document.getElementById("Resultado");
-			var valor = "processando";
-			var cont=0;
-	
-			function proccess() {
-				valor = valor + ".";
-				resultado.value = valor;
-				cont++;
-				if (cont!=4) {
-					setTimeout(proccess, 1000);
-				}
-			}
 			
 			var base64;
 			var decod;
 			
 			btn.addEventListener('click', function () {
 				alert("Arquivo enviado!");
-				base64 = btoa(codigo.value);
-				decod = atob(base64);
-				alert(base64);
-				alert(decod);
-				proccess();
-			});
-			
+			});			
 		</script>
     </body>
 </html>
