@@ -1,0 +1,80 @@
+div.container{
+    border-style: double;
+	width: 860px;
+	height: 550px;
+	margin: 0 auto;
+    background-color: #DCDCDC;
+}
+
+#esquerda { 
+    float: left; 
+    width: 30%; 
+    padding-top: 1%;
+    padding-left: 10%;
+}
+
+#direita { 
+    float: right; 
+    margin-right: 10%;
+}
+
+#inferior {
+    clear:both;
+    height:20%;
+    padding-left: 10%;
+}
+
+#Preencher {
+    font-size: 24px;
+    padding-left: 10%;
+}
+
+#pagina {
+    border-style: double;
+    height: 59%;
+    width: 60%;
+    margin: auto;
+    padding: auto;
+    background-color: #DCDCDC;
+}
+
+#titulo {
+    text-align: center;
+    color: #006400;
+}
+#Codigo {
+    background-color: #BEBEBE;
+    color: darkgreen;
+    font-weight: bold;
+    border-color: black;
+    width: 90%;
+    height: 90%;
+    resize: none;
+    
+}
+#id {
+    background-color: #BEBEBE;
+    color: darkgreen;
+    font-weight: bold;
+    border-color: black;
+}
+#nomeArquivo {
+    background-color: #BEBEBE;
+    color: darkgreen;
+    font-weight: bold;
+    border-color: black;
+}
+
+#Resultado {
+    background-color: #8FBC8F;
+    color: black;
+    font-weight: bold;
+    border-color: black;
+}
+
+#corpo {
+    background-color: #E0FFFF;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+}
