@@ -14,29 +14,20 @@
 	                    <input id="id" type="text" name="solution.filename">
 	                    <br><br>
 	                    <pre>Problema:</pre>
-	                    <input id="nomeArquivo" type="text" name="solution.problem">
+	                    <input id="problema" type="text" name="solution.problem">
 	                </div>
 	            </div>
 	            <div id="inferior">
 		            <br><br>
 	                <p>Codigo:</p>
-	                <textarea id="Codigo" name="solution.sourcecode"></textarea>
+	                <textarea id="Codigo" name="solution.sourcecode" onfocus="testeProblema()"></textarea>
 	                <br><br>
 	                <button id="submit" type="submit">Enviar</button>
 	                <br><br>
 	            </div>
 	        </div>
         </form>
-		<script>
-			var btn = document.getElementById("submit");
-			
-			var base64;
-			var decod;
-			
-			btn.addEventListener('click', function () {
-				alert("Arquivo enviado!");
-			});			
-		</script>
+		<script type="text/javascript" src="/public/javascripts/script.js"></script>
     </body>
 </html>
 

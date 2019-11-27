@@ -1,9 +1,9 @@
 package models;
 
 public class Solution {
-	private String sourcecode;
-	private String filename;
-	private String problem;
+	public String sourcecode;
+	public String filename;
+	public String problem;
 
 	public Solution() {
 	}

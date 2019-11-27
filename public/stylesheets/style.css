@@ -58,7 +58,7 @@ div.container{
     font-weight: bold;
     border-color: black;
 }
-#nomeArquivo {
+#problema {
     background-color: #BEBEBE;
     color: darkgreen;
     font-weight: bold;
@@ -75,6 +75,5 @@ div.container{
 #corpo {
     background-color: #E0FFFF;
     margin: auto;
-    padding: auto;
     align-items: center;
 }
