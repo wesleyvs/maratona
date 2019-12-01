@@ -6,7 +6,7 @@
 - Play Framework 1.5.3
 - Python 3.8
 
-## Algoritmos a ser válidado pela aplicação:
+## Algoritmos a serem validados pela aplicação:
 - ![Problema A](problems/problemA.pdf)  
 - ![Problema B](problems/problemB.pdf)
  
