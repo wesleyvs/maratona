@@ -1,0 +1,28 @@
+#{set title:'Home' /}
+<head>
+    <link rel="stylesheet" type="text/css" href="/public/stylesheets/style-busca.css"/> 
+    <title>Maratona (Resultado da busca)</title>
+</head>
+<body id="pagina">
+	<div id="retorno">
+        <a href="@{Application.maratona()}">Voltar a pagina de cadastro de algoritmos</a>
+    </div>
+    <br>
+    <div class="container">
+    	<br>
+    	<div id="busca">
+	    	<form action="@{Application.busca}">
+		        <input id="id" type="text" name="busca.text">
+		        <select type="text" name="busca.tipo">
+				  <option value="Status">Status</option>
+				  <option value="ID">ID</option>
+				  <option value="Periodo">Periodo</option>
+				</select>
+		        <button type="submit" onclick="abrirBusca()">Buscar</button>
+		     </form>
+	     </div>
+        <h1>Resultado da busca: </h1>
+        <h2><pre>${lstBusca}</pre></h2>
+    </div>
+    <br>
+</body>

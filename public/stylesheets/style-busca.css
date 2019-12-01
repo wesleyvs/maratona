@@ -1,11 +1,14 @@
 div.container{
     border-style: double;
-	width: 600px;
+	width: 1000px;
 	height: auto;
     margin: 0 auto;
     padding: 1px;
     background-color: #DCDCDC;
-    text-align: center;
+}
+
+#busca {
+	text-align: center;
 }
 
 #pagina {

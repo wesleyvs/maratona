@@ -73,7 +73,7 @@ div.container{
 }
 
 #corpo {
-    background-color: #E0FFFF;
+    background-image: linear-gradient(to top, white, #BFEFFF);
     margin: auto;
     align-items: center;
 }

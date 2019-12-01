@@ -4,14 +4,26 @@
     <title>Maratona (Validar codigo)</title>
 </head>
 <body id="pagina">
-    <div class="container">
-        <h1>Lista de programas avaliados: </h1>
-        <button>Ordenar por nome</button>
-        <button>Ordenar por status</button>
-        <h2><pre>${lst}</pre></h2>
-    </div>
-    <br>
-    <div id="retorno">
+	<div id="retorno">
         <a href="@{Application.maratona()}">Voltar a pagina de cadastro de algoritmos</a>
     </div>
+    <br>
+    <div class="container">
+        <h1>Lista de programas avaliados: </h1>
+        <form action="@{Application.busca}">
+	        <input id="id" type="text" name="busca.text">
+	        <select type="text" name="busca.tipo">
+			  <option value="Status">Status</option>
+			  <option value="ID">ID</option>
+			  <option value="Periodo">Periodo</option>
+			</select>
+	        <button type="submit" onclick="abrirBusca()">Buscar</button>
+	     </form>
+        <h2><pre>${lst}</pre></h2>
+    </div>
+    <script>
+    	function abrirBusca() {
+    		window.local.href="/application/busca.html"
+    	}
+    </script>
 </body>
