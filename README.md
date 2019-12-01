@@ -15,11 +15,11 @@
 ## Endpoint /busca:
  É a página para exibir o resultado da busca feita no endpoint /show.  
  Esta página também permite refazer outra busca no endpoint /show.  
- ###Demonstração: 
- ####Formulário para busca no /show:  
+ ### Demonstração: 
+ #### Formulário para busca no /show:  
  ![](pics/endpoint-busca1.png)  
    
- ####Resultado da busca:  
+ #### Resultado da busca:  
  ![](pics/endpoint-busca2.png)  
 ## Requisitos:
 - JRE 1.8.0
