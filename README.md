@@ -11,7 +11,16 @@
  É a página para exibir um histórico dos códigos postados, incluindo data, hora e o status ("SUCCESS" ou "FAIL").  
 ### Demonstração:  
  ![](pics/endpoint-show.png) 
-
+ 
+## Endpoint /busca:
+ É a página para exibir o resultado da busca feita no endpoint /show.  
+ Esta página também permite refazer outra busca no endpoint /show.  
+ ###Demonstração: 
+ ####Formulário para busca no /show:  
+ ![](pics/endpoint-busca1.png)  
+   
+ ####Resultado da busca:  
+ ![](pics/endpoint-busca2.png)  
 ## Requisitos:
 - JRE 1.8.0
 - Play Framework 1.5.3
