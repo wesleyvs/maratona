@@ -2,7 +2,7 @@
  O projeto web tem a função de validar códigos python (.py) através de comparação de arquivo de saida do algoritmo postado e o arquivo de saida esperado.  
  
  ## Requisitos:
-- JRE 1.8.0
+- Java JRE 1.8.0
 - Play Framework 1.5.3
 - Python 3.8
 
