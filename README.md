@@ -22,7 +22,7 @@
  ![](pics/endpoint-show.png) 
  
 ## Endpoint /busca:
- É a página para exibir o resultado da busca feita no endpoint /show.  
+ É a página para exibir o resultado da busca feita por ID, Status (Success ou Fail) e o periodo (Data e hora) no endpoint /show.  
  Esta página também permite refazer outra busca no endpoint /show.  
  ### Demonstração: 
  #### Formulário para busca no /show:  
