@@ -1,6 +1,15 @@
 # Validação de códigos para maratonas
  O projeto web tem a função de validar códigos python (.py) através de comparação de arquivo de saida do algoritmo postado e o arquivo de saida esperado.  
  
+ ## Requisitos:
+- JRE 1.8.0
+- Play Framework 1.5.3
+- Python 3.8
+
+## Algoritmos a ser válidado pela aplicação:
+- ![Problema A](problems/problemA.pdf)  
+- ![Problema B](problems/problemB.pdf)
+ 
 ## Endpoint /maratona: 
  É a página principal onde o usuário irá postar o código juntamente com o nome do arquivo e nome do problema (ID).  
  Após a postagem do algoritmo, a aplicação faz as validações e retorna com "SUCCESS" ou "FAIL" dependendo da comparação do arquivo de saída.  
@@ -21,9 +30,6 @@
    
  #### Resultado da busca:  
  ![](pics/endpoint-busca2.png)  
-## Requisitos:
-- JRE 1.8.0
-- Play Framework 1.5.3
 
 ## Importar projeto
 Para a utilização da versão 1.5.3 do framework Play, necessita apenas realizar o [download do arquivo compactado](https://www.playframework.com/releases) e usar o Prompt de comando dentro da pasta do framework.
